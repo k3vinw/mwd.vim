@@ -1,4 +1,4 @@
-MWD - Magic Working Directory :magic_wand: Vim 
+MWD - Magic Working Directory :sparkles: Vim 
 ==============================================
 
 Changes CWD to the provided path on startup.
@@ -11,7 +11,7 @@ I found autochdir to be too aggressive for my needs.
 This is mostly a convenience plugin to automatically change the
 working directory on startup. So I don't have to think about it.
 
-It should work like magic :magic_wand:
+It should work like magic :sparkles:
 
 For the best experience it's recommend to turn off autochdir.
 
