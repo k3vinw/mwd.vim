@@ -28,23 +28,25 @@ This saves me the extra step of having to manually change the path
 after startup. And when you don't provide a path, Vim will still
 default to your shell's current working directory!
 
+My goal here is to provide a simple plugin that does one thing well
+and requires zero-configuration.
+
 It should work like magic! :sparkles:
 
 Q & A
 -----
 
-What about Vim's autochdir feature?
+Why not use Vim's built-in autochdir feature?
 
 It simply doesn't fit my workflow. I want the path I provide to Vim
 to act like an anchor to the workspace I'm targeting. Which is why
 I recommend turning off autochdir.
 
-What about [vim-rooter](https://github.com/airblade/vim-rooter)?
+Why not use the [vim-rooter](https://github.com/airblade/vim-rooter) plugin?
 
-I never tried it, because it looked too complicated for my needs. Plus,
-I thought it would be fun to write my own vim plugin :smile: I wanted
-something dead simple that requires zero configuration. Just drop it
-in and run it.
+Fair question. I simply didn't need any of the additional capabilities
+it offers. If you need something with more capabilities, please give
+vim-rooter a try!
 
 ## Installation
 
