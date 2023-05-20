@@ -1,5 +1,6 @@
 " Title:        MWD - Magic Working Directory
-" Description:  Changes CWD to the provided path on startup.
+" Description:  Changes the startup behavior of Vim to respect the
+"               supplied path.
 " Maintainer:   Kevin Ray Wood <https://gitlab.com/kevinrw>
 " Version:      0.0.1
 

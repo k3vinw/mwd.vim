@@ -1,19 +1,31 @@
 MWD - Magic Working Directory :sparkles: Vim 
 ==============================================
 
-Changes CWD to the provided path on startup.
+Changes the startup behavior of Vim to respect the supplied path.
 
 Rationale
 ---------
 
-I found autochdir to be too aggressive for my needs.
+By default Vim defaults to your shell's current working directory. This
+is a fine and sane default. However, it is suboptimal for my workflow.
 
-This is mostly a convenience plugin to automatically change the
-working directory on startup. So I don't have to think about it.
+My typical workflow:
 
-It should work like magic :sparkles:
+1. Open a new terminal or new shell to my home directory.
+2. Start vim with a path argument. E.g. 'vim ~/projects/example'
+3. Change the current working directory to ~/projects/example.
+3. Open files that may or may not be found in the project's workspace
+   (see my note about autochdir below).
+4. Run Vim commands within the project's workspace.
 
-For the best experience it's recommend to turn off autochdir.
+This saves me the extra step of having to manually change the path
+after startup.
+
+It should work like magic! :sparkles:
+
+Yes. I'm aware of Vim's autochdir feature. It simply doesn't fit my
+workflow. I want the path I provide to Vim to act like an anchor to
+the workspace I'm in. Which is why I recommend turning off autochdir.
 
 ## Installation
 
