@@ -18,7 +18,11 @@ My typical workflow:
    on startup. E.g. ':lcd ~/projects/example.'
 4. Open files that may or may not be found in the project's workspace
    (see my note about autochdir below).
-5. Run Vim commands within the project's workspace.
+5. Run Vim commands within the project's workspace ...
+   This works fantastic with plugins such as
+   [fzf.vim](https://github.com/junegunn/fzf.vim) because it
+   restricts it's fuzzy find capabilities to your project's workspace
+   regardless of your shell's current working directory.
 
 This saves me the extra step of having to manually change the path
 after startup. And when you don't provide a path, Vim will still
