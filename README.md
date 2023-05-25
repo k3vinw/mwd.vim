@@ -16,7 +16,7 @@ what you supplied to Vim at startup? :confused:
 
 Have you ever found yourself wondering :thinking:
 
-    "Why doesn't Vim follow the path that I supplied to it at startup?"
+> "Why doesn't Vim follow the path that I supplied to it at startup?"
 
 Well this plugin might be for you! :smiley:
 
