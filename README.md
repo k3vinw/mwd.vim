@@ -3,8 +3,8 @@ MWD - Magic Working Directory :sparkles: Vim
 
 Changes the startup behavior of Vim to respect the supplied path.
 
-Motivation
-----------
+Rationale
+---------
 
 If you ever supplied a path to Vim at startup and were surprised that
 Vim's current working directory was still way back on the path from
