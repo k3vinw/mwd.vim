@@ -6,18 +6,19 @@ Changes the startup behavior of Vim to respect the supplied path.
 Rationale
 ---------
 
-If you ever supplied a path to Vim at startup and were surprised that
-Vim's current working directory was still way back on the path from
-where you started Vim. 
+Have you ever supplied a directory to Vim at startup and were surprised
+that Vim's built-in file browser (Explorer) was opened to a different
+path than what you supplied to Vim at startup? :confused:
 
-Or if you ever launched [fzf.vim](https://github.com/junegunn/fzf.vim)
-and were surprised it was scanning files from a completely different
-path than what you supplied to Vim at startup.
+Or launched [fzf.vim](https://github.com/junegunn/fzf.vim) and were
+surprised it was scanning files from a completely different path than
+what you supplied to Vim at startup? :confused:
 
-And you found yourself wondering why doesn't Vim honor the path that
-I supplied at startup?
+Have you ever found yourself wondering :thinking:
 
-Well this plugin might be for you!
+    "Why doesn't Vim follow the path that I supplied to it at startup?"
+
+Well this plugin might be for you! :smiley:
 
 My goal here is to provide a simple plugin that does one thing well
 and requires zero-configuration.
