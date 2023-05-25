@@ -46,7 +46,7 @@ capabilities, please give vim-rooter a try!
 ### Using [vim-plug](https://github.com/junegunn/vim-plug)
 
 ```vim
-Plug 'https://gitlab.com/kevinrw/mwd.vim.git'
+Plug 'k3vinw/mwd.vim'
 ```
 
 ## Usage
