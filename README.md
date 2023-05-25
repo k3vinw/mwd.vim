@@ -6,10 +6,6 @@ Changes the startup behavior of Vim to respect the supplied path.
 Motivation
 ----------
 
-By default Vim defaults to your shell's current working directory on
-startup. This is a sane default and most of the time it is exactly
-what you want. Except when it isn't ...
-
 If you ever supplied a path to Vim at startup and were surprised that
 Vim's current working directory was still way back on the path from
 where you started Vim. 
