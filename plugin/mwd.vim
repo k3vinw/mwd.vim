@@ -1,5 +1,5 @@
 " Title:        MWD - Magic Working Directory
-" Description:  Changes the startup behavior of Vim to respect the
+" Description:  Changes the startup behavior of Vim to follow the
 "               supplied path.
 " Maintainer:   Kevin Ray Wood <https://gitlab.com/kevinrw>
 " Version:      0.0.1
