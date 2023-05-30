@@ -18,12 +18,11 @@ Have you ever found yourself wondering :thinking:
 
 > Why doesn't Vim follow the path that I supplied to it at startup?
 
-Well this plugin might be for you! :smiley:
+Well this plugin just might be for you! :smiley:
 
-No more fussing with having to manually change your current
-working directory to your desired path. MWD is a simple plugin
-for Vim that handles this task for you automatically and requires
-zero-configuration.
+No more fussing with manually changing the current working directory
+after startup. MWD is a simple plugin that handles this task for you
+automatically and requires zero-configuration.
 
 It should work like magic! :sparkles:
 
@@ -52,12 +51,17 @@ capabilities, please give vim-rooter a try!
 Plug 'k3vinw/mwd.vim'
 ```
 
+### Manual
+
+```
+copy autoload/mwd.vim  -> ~/.vim/autoload/mwd.vim
+copy plugin/mwd.vim -> ~/.vim/plugin/mwd.vim
+```
+
 ## Usage
 
-Here's some examples of various scenarios that will change the current
-working directory to magic.
-
 ```bash
-vim ~/projects/magic # path to project's "workspace"
-vim ~/projects/magic/README.md # path to file in the root of a project
+vim ~/projects/magic # sets Vim's current working directory to ~/projects/magic
+vim ~/projects/magic/README.md # sets Vim's current working directory to ~/projects/magic
+vim # current working directory is not changed
 ```
