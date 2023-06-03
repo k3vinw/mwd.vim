@@ -1,14 +1,14 @@
 MWD - Magic Working Directory :sparkles: Vim 
 ==============================================
 
-Changes the startup behavior of Vim to follow the supplied path.
+Change the startup behavior of Vim to follow your path.
 
 Rationale
 ---------
 
-Have you ever supplied a directory to Vim at startup and were surprised
+Have you ever supplied a path to Vim at startup and were surprised
 to find the built-in file browser (Explorer) was listing directories
-and files from a different location than what you expected? :confused:
+and files from a different path than what you expected? :confused:
 
 Or launched [fzf.vim](https://github.com/junegunn/fzf.vim) and were
 surprised it was scanning files from a completely different path than
@@ -16,9 +16,9 @@ what you supplied to Vim at startup? :confused:
 
 Have you ever found yourself wondering :thinking:
 
-> Why doesn't Vim follow the path that I supplied to it at startup?
+> Why doesn't Vim follow the path that I provided to it at startup?
 
-Well this plugin just might be for you! :smiley:
+Well this might be the perfect plugin for you! :smiley:
 
 No more fussing with manually changing the current working directory
 after startup. MWD is a simple plugin that handles this task for you
@@ -31,11 +31,11 @@ Q & A
 
 Why not use Vim's built-in autochdir feature?
 
-It simply doesn't fit my workflow. I want the path I provide to
-Vim to act like an anchor to the workspace I'm targeting. Autochdir
-will keep changing the your directory all over the place as you jump
-to different files throughout your workspace tree. Which is why I
-recommend turning off autochdir.
+It simply doesn't fit my workflow. I would like to stay in my
+"workspace" path. Also known as the project's root. Autochdir will keep
+changing your directory all over the place as you jump to different
+files throughout your workspace tree. For this reason, I recommend
+turning off autochdir when using this plugin.
 
 Why not use the [vim-rooter](https://github.com/airblade/vim-rooter) plugin?
 
@@ -65,3 +65,7 @@ vim ~/projects/magic # sets Vim's current working directory to ~/projects/magic
 vim ~/projects/magic/README.md # sets Vim's current working directory to ~/projects/magic
 vim # current working directory is not changed
 ```
+
+## License
+
+MIT License. Copyright (c) 2023 Kevin Ray Wood.
