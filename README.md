@@ -3,6 +3,8 @@ MWD - Magic Working Directory :sparkles: Vim
 
 Change the startup behavior of Vim to follow your path.
 
+![img](./assets/demo.gif)
+
 Rationale
 ---------
 
@@ -16,7 +18,7 @@ what you supplied to Vim at startup? :confused:
 
 Have you ever found yourself wondering :thinking:
 
-> Why doesn't Vim follow the path that I provided to it at startup?
+> Why doesn't Vim just follow the path I specified at startup?
 
 Well this might be the perfect plugin for you! :smiley:
 
@@ -31,8 +33,8 @@ Q & A
 
 Why not use Vim's built-in autochdir feature?
 
-It simply doesn't fit my workflow. I would like to stay in my
-"workspace" path. Also known as the project's root. Autochdir will keep
+It simply doesn't fit my workflow. I would like Vim to stay in my
+workspace path. Also known as the project's root. Autochdir will keep
 changing your directory all over the place as you jump to different
 files throughout your workspace tree. For this reason, I recommend
 turning off autochdir when using this plugin.
