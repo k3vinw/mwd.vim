@@ -8,24 +8,20 @@ Change the startup behavior of Vim to follow your path.
 Rationale
 ---------
 
-Have you ever specified a path in your Vim command line arguments and
-were surprised Vim was operating on a completely different path than
-what you expected? :confused:
+Have you ever specified a path in your Vim command line arguments
+and were surprised to discover that Vim was operating on a completely
+different path than what you expected? :confused:
 
 Have you ever found yourself wondering :thinking:
 
-> Why doesn't Vim just follow the path I specified at startup?
+> Why doesn't Vim just set the path to what I specified at startup?
 
 Well this could be the perfect plugin for you! :smiley:
 
-Imagine being able to launch [fzf.vim](https://github.com/junegunn/fzf.vim)
-and it starts scanning files in the path you specified. :sunglasses:
-
-No more fussing with manually changing the current working directory to
-your specified path after startup. MWD is a simple plugin that handles
-this task for you automatically and requires zero-configuration.
-
-It should work like magic! :magic_wand:
+No more fussing with having to manually change the current working
+directory to the path your specified at startup. MWD is a simple
+plugin that handles this task for you automatically and requires
+zero-configuration.
 
 Q & A
 -----
