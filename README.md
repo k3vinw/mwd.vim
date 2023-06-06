@@ -23,8 +23,6 @@ directory to the path your specified at startup. MWD is a simple
 plugin that handles this task for you automatically and requires
 zero-configuration.
 
-Vim script performs all the magic! :magic_wand:
-
 Q & A
 -----
 
