@@ -8,20 +8,18 @@ Change the startup behavior of Vim to follow your path.
 Rationale
 ---------
 
-Have you ever specified a path in your Vim command line arguments
+Have you ever started Vim from the command line with a path argument
 and were surprised to discover that Vim was operating on a completely
 different path than what you expected? :confused:
 
-Have you ever found yourself wondering :thinking:
-
-> Why doesn't Vim just set the path to what I specified at startup?
+Do you think it would be awesome if Vim's current working directory
+was derived from the path argument?
 
 Well this could be the perfect plugin for you! :smiley:
 
 No more fussing with having to manually change the current working
-directory to the path your specified at startup. MWD is a simple
-plugin that handles this task for you automatically and requires
-zero-configuration.
+directory after startup. MWD is a simple plugin that handles this
+task for you automatically and requires zero-configuration.
 
 Q & A
 -----
